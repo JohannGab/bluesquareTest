@@ -1,0 +1,57 @@
+.containerBase {
+    width: 20%;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25vh 6vh 4vh 6vh;
+    text-align: center;
+    
+
+    img{
+        width: 100%;
+    }
+
+    img:hover {
+        opacity: 0.5;
+    }
+
+    .pDeco {
+        position: relative;
+        color: yellow;
+        font-weight: bold;
+        font-size: 46px;
+        top: -50px;
+    }
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 100% ;
+    grid-template-rows: 2vh;
+    text-align: center;
+    text-align: center;
+
+    img {
+        width: 8%;
+        margin-right: 5px;
+    }
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 5vh;
+    text-align: center;
+
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 6vh;
+    text-align: center;
+}
+

@@ -38,6 +38,11 @@
         width: 8%;
         margin-right: 5px;
     }
+
+    i {
+        margin-right: 15px;
+        color:rgba(168, 167, 167, 0.698);
+    }
 }
 
 .container3 {
@@ -46,6 +51,9 @@
     grid-template-rows: 5vh;
     text-align: center;
 
+    span {
+        color: rgba(168, 167, 167, 0.698);
+    }
 }
 
 .container4 {
@@ -53,5 +61,12 @@
     grid-template-columns: 100%;
     grid-template-rows: 6vh;
     text-align: center;
+
+    i {
+        position: relative;
+        top: -1px;
+        margin-right: 5px;
+        font-size: 10px;
+    }
 }
 
